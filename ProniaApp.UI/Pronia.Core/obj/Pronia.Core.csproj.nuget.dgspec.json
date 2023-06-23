@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\ProniaApp.UI\\Pronia.Core\\Pronia.Core.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\dot.net\\ProniaApp.UI\\Pronia.Core\\Pronia.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\ProniaApp.UI\\Pronia.Core\\Pronia.Core.csproj": {
+    "C:\\Users\\Admin\\Desktop\\dot.net\\ProniaApp.UI\\Pronia.Core\\Pronia.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\ProniaApp.UI\\Pronia.Core\\Pronia.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\dot.net\\ProniaApp.UI\\Pronia.Core\\Pronia.Core.csproj",
         "projectName": "Pronia.Core",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\ProniaApp.UI\\Pronia.Core\\Pronia.Core.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\dot.net\\ProniaApp.UI\\Pronia.Core\\Pronia.Core.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\ProniaApp.UI\\Pronia.Core\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\dot.net\\ProniaApp.UI\\Pronia.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,11 +40,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.18, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.7.2, )"
             }
           },
           "imports": [

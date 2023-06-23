@@ -26,3 +26,17 @@ C:\Users\Admin\Desktop\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\refint\Pronia.C
 C:\Users\Admin\Desktop\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.pdb
 C:\Users\Admin\Desktop\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.genruntimeconfig.cache
 C:\Users\Admin\Desktop\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\ref\Pronia.Core.dll
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\bin\Debug\net6.0\Pronia.Core.deps.json
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\bin\Debug\net6.0\Pronia.Core.runtimeconfig.json
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\bin\Debug\net6.0\Pronia.Core.dll
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\bin\Debug\net6.0\Pronia.Core.pdb
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.dll
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\refint\Pronia.Core.dll
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.pdb
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.genruntimeconfig.cache
+C:\Users\Admin\Desktop\dot.net\ProniaApp.UI\Pronia.Core\obj\Debug\net6.0\ref\Pronia.Core.dll

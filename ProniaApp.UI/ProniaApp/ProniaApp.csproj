@@ -11,6 +11,159 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\assetsf\fonts\boxiconsd41d.svg" />
+    <None Include="wwwroot\assetsf\fonts\dripicons-v2.svg" />
+    <None Include="wwwroot\assetsf\fonts\fa-brands-400.svg" />
+    <None Include="wwwroot\assetsf\fonts\fa-regular-400.svg" />
+    <None Include="wwwroot\assetsf\fonts\fa-solid-900.svg" />
+    <None Include="wwwroot\assetsf\images\coming-soon.svg" />
+    <None Include="wwwroot\assetsf\images\logo-light.svg" />
+    <None Include="wwwroot\assetsf\images\logo.svg" />
+    <None Include="wwwroot\assetsf\images\maintenance.svg" />
+    <None Include="wwwroot\assetsf\js\app.js" />
+    <None Include="wwwroot\assetsf\js\pages\alerts.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\apexcharts.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\auth-2-carousel.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\bootstrap-toastr.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\calendar.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\calendars-full.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\calendars.js" />
+    <None Include="wwwroot\assetsf\js\pages\chartjs.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\coming-soon.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\crypto-dashboard.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\crypto-exchange.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\crypto-kyc-app.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\crypto-orders.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\crypto-wallet.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\dashboard-blog.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\dashboard.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\datatables.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\echarts.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\ecommerce-cart.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\ecommerce-select2.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\email-editor.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\file-manager.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\flot.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\fontawesome.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\form-advanced.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\form-editor.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\form-mask.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\form-repeater.int.js" />
+    <None Include="wwwroot\assetsf\js\pages\form-validation.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\form-wizard.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\form-xeditable.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\gmaps.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\ico-landing.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\jquery-knob.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\leaflet-map.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\leaflet-us-states.js" />
+    <None Include="wwwroot\assetsf\js\pages\lightbox.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\materialdesign.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\modal.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\product-filter-range.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\profile.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\project-overview.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\range-sliders.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\rating-init.js" />
+    <None Include="wwwroot\assetsf\js\pages\saas-dashboard.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\schedules.js" />
+    <None Include="wwwroot\assetsf\js\pages\session-timeout.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\sparklines.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\sweet-alerts.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\table-editable.int.js" />
+    <None Include="wwwroot\assetsf\js\pages\table-responsive.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\task-create.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\task-form.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\task-kanban.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\tasklist.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\timeline.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\toastr.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\tui-charts.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\two-step-verification.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\validation.init.js" />
+    <None Include="wwwroot\assetsf\js\pages\vector-maps.init.js" />
+    <None Include="wwwroot\assetsf\libs\%40chenfengyuan\datepicker\datepicker.min.js" />
+    <None Include="wwwroot\assetsf\libs\%40curiosityx\bootstrap-session-timeout\index.js" />
+    <None Include="wwwroot\assetsf\libs\%40fullcalendar\bootstrap\main.min.js" />
+    <None Include="wwwroot\assetsf\libs\%40fullcalendar\core\main.min.js" />
+    <None Include="wwwroot\assetsf\libs\%40fullcalendar\daygrid\main.min.js" />
+    <None Include="wwwroot\assetsf\libs\%40fullcalendar\interaction\main.min.js" />
+    <None Include="wwwroot\assetsf\libs\%40fullcalendar\timegrid\main.min.js" />
+    <None Include="wwwroot\assetsf\libs\admin-resources\jquery.vectormap\jquery-jvectormap-1.2.2.min.js" />
+    <None Include="wwwroot\assetsf\libs\admin-resources\jquery.vectormap\maps\jquery-jvectormap-au-mill-en.js" />
+    <None Include="wwwroot\assetsf\libs\admin-resources\jquery.vectormap\maps\jquery-jvectormap-ca-lcc-en.js" />
+    <None Include="wwwroot\assetsf\libs\admin-resources\jquery.vectormap\maps\jquery-jvectormap-in-mill-en.js" />
+    <None Include="wwwroot\assetsf\libs\admin-resources\jquery.vectormap\maps\jquery-jvectormap-uk-mill-en.js" />
+    <None Include="wwwroot\assetsf\libs\admin-resources\jquery.vectormap\maps\jquery-jvectormap-us-il-chicago-mill-en.js" />
+    <None Include="wwwroot\assetsf\libs\admin-resources\jquery.vectormap\maps\jquery-jvectormap-us-merc-en.js" />
+    <None Include="wwwroot\assetsf\libs\admin-resources\jquery.vectormap\maps\jquery-jvectormap-world-mill-en.js" />
+    <None Include="wwwroot\assetsf\libs\admin-resources\rwd-table\rwd-table.min.js" />
+    <None Include="wwwroot\assetsf\libs\apexcharts\apexcharts.min.js" />
+    <None Include="wwwroot\assetsf\libs\bootstrap-datepicker\js\bootstrap-datepicker.min.js" />
+    <None Include="wwwroot\assetsf\libs\bootstrap-editable\js\index.js" />
+    <None Include="wwwroot\assetsf\libs\bootstrap-maxlength\bootstrap-maxlength.min.js" />
+    <None Include="wwwroot\assetsf\libs\bootstrap-rating\bootstrap-rating.min.js" />
+    <None Include="wwwroot\assetsf\libs\bootstrap-timepicker\js\bootstrap-timepicker.min.js" />
+    <None Include="wwwroot\assetsf\libs\bootstrap-touchspin\jquery.bootstrap-touchspin.min.js" />
+    <None Include="wwwroot\assetsf\libs\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\assetsf\libs\chance\chance.min.js" />
+    <None Include="wwwroot\assetsf\libs\chart.js\Chart.bundle.min.js" />
+    <None Include="wwwroot\assetsf\libs\datatables.net-bs4\js\dataTables.bootstrap4.min.js" />
+    <None Include="wwwroot\assetsf\libs\datatables.net-buttons-bs4\js\buttons.bootstrap4.min.js" />
+    <None Include="wwwroot\assetsf\libs\datatables.net-buttons\js\buttons.colVis.min.js" />
+    <None Include="wwwroot\assetsf\libs\datatables.net-buttons\js\buttons.html5.min.js" />
+    <None Include="wwwroot\assetsf\libs\datatables.net-buttons\js\buttons.print.min.js" />
+    <None Include="wwwroot\assetsf\libs\datatables.net-buttons\js\dataTables.buttons.min.js" />
+    <None Include="wwwroot\assetsf\libs\datatables.net-responsive-bs4\js\responsive.bootstrap4.min.js" />
+    <None Include="wwwroot\assetsf\libs\datatables.net-responsive\js\dataTables.responsive.min.js" />
+    <None Include="wwwroot\assetsf\libs\datatables.net\js\jquery.dataTables.min.js" />
+    <None Include="wwwroot\assetsf\libs\dragula\dragula.min.js" />
+    <None Include="wwwroot\assetsf\libs\dropzone\min\dropzone.min.js" />
+    <None Include="wwwroot\assetsf\libs\echarts\echarts.min.js" />
+    <None Include="wwwroot\assetsf\libs\flot-charts\jquery.flot.crosshair.js" />
+    <None Include="wwwroot\assetsf\libs\flot-charts\jquery.flot.js" />
+    <None Include="wwwroot\assetsf\libs\flot-charts\jquery.flot.pie.js" />
+    <None Include="wwwroot\assetsf\libs\flot-charts\jquery.flot.resize.js" />
+    <None Include="wwwroot\assetsf\libs\flot-charts\jquery.flot.selection.js" />
+    <None Include="wwwroot\assetsf\libs\flot-charts\jquery.flot.stack.js" />
+    <None Include="wwwroot\assetsf\libs\flot-charts\jquery.flot.time.js" />
+    <None Include="wwwroot\assetsf\libs\gmaps\gmaps.min.js" />
+    <None Include="wwwroot\assetsf\libs\inputmask\min\jquery.inputmask.bundle.min.js" />
+    <None Include="wwwroot\assetsf\libs\ion-rangeslider\js\ion.rangeSlider.min.js" />
+    <None Include="wwwroot\assetsf\libs\jquery-countdown\jquery.countdown.min.js" />
+    <None Include="wwwroot\assetsf\libs\jquery-knob\jquery.knob.min.js" />
+    <None Include="wwwroot\assetsf\libs\jquery-sparkline\jquery.sparkline.min.js" />
+    <None Include="wwwroot\assetsf\libs\jquery-steps\build\jquery.steps.min.js" />
+    <None Include="wwwroot\assetsf\libs\jquery-ui-dist\jquery-ui.min.js" />
+    <None Include="wwwroot\assetsf\libs\jquery-validation\jquery.validate.min.js" />
+    <None Include="wwwroot\assetsf\libs\jquery.easing\jquery.easing.min.js" />
+    <None Include="wwwroot\assetsf\libs\jquery.flot.tooltip\js\jquery.flot.tooltip.min.js" />
+    <None Include="wwwroot\assetsf\libs\jquery.repeater\jquery.repeater.min.js" />
+    <None Include="wwwroot\assetsf\libs\jquery\jquery.min.js" />
+    <None Include="wwwroot\assetsf\libs\jszip\jszip.min.js" />
+    <None Include="wwwroot\assetsf\libs\leaflet\leaflet.js" />
+    <None Include="wwwroot\assetsf\libs\magnific-popup\jquery.magnific-popup.min.js" />
+    <None Include="wwwroot\assetsf\libs\masonry-layout\masonry.pkgd.min.js" />
+    <None Include="wwwroot\assetsf\libs\metismenu\metisMenu.min.js" />
+    <None Include="wwwroot\assetsf\libs\moment\min\moment.min.js" />
+    <None Include="wwwroot\assetsf\libs\node-waves\waves.min.js" />
+    <None Include="wwwroot\assetsf\libs\owl.carousel\owl.carousel.min.js" />
+    <None Include="wwwroot\assetsf\libs\parsleyjs\parsley.min.js" />
+    <None Include="wwwroot\assetsf\libs\pdfmake\build\pdfmake.min.js" />
+    <None Include="wwwroot\assetsf\libs\pdfmake\build\vfs_fonts.js" />
+    <None Include="wwwroot\assetsf\libs\select2\js\select2.min.js" />
+    <None Include="wwwroot\assetsf\libs\simplebar\simplebar.min.js" />
+    <None Include="wwwroot\assetsf\libs\spectrum-colorpicker2\spectrum.min.js" />
+    <None Include="wwwroot\assetsf\libs\sweetalert2\sweetalert2.min.js" />
+    <None Include="wwwroot\assetsf\libs\table-edits\build\table-edits.min.js" />
+    <None Include="wwwroot\assetsf\libs\tinymce\tinymce.min.js" />
+    <None Include="wwwroot\assetsf\libs\toastr\build\toastr.min.js" />
+    <None Include="wwwroot\assetsf\libs\tui-calendar\tui-calendar.min.js" />
+    <None Include="wwwroot\assetsf\libs\tui-chart\maps\usa.js" />
+    <None Include="wwwroot\assetsf\libs\tui-chart\tui-chart-all.min.js" />
+    <None Include="wwwroot\assetsf\libs\tui-date-picker\tui-date-picker.min.js" />
+    <None Include="wwwroot\assetsf\libs\tui-dom\tui-dom.min.js" />
+    <None Include="wwwroot\assetsf\libs\tui-time-picker\tui-time-picker.min.js" />
     <None Include="wwwroot\assets\fonts\fontawesome-webfont.svg" />
     <None Include="wwwroot\assets\fonts\fontawesome-webfont.woff2" />
     <None Include="wwwroot\assets\fonts\Pe-icon-7-stroke.svg" />
@@ -38,6 +191,7 @@
     <None Include="wwwroot\assets\js\vendor\jquery-migrate-3.3.2.min.js" />
     <None Include="wwwroot\assets\js\vendor\jquery.waypoints.js" />
     <None Include="wwwroot\assets\js\vendor\modernizr-3.11.2.min.js" />
+    <None Include="wwwroot\assets\php\pronia\pronia.php" />
     <None Include="wwwroot\assets\scss\style.scss" />
     <None Include="wwwroot\assets\scss\_404.scss" />
     <None Include="wwwroot\assets\scss\_about.scss" />
@@ -72,11 +226,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.18">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
+    <PackageReference Include="OpenAI" Version="1.7.2" />
   </ItemGroup>
 
   <ItemGroup>

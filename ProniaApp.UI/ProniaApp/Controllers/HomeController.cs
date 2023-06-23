@@ -21,7 +21,10 @@ namespace ProniaApp.Controllers
                 Sliders = await _context.Sliders.ToListAsync(),
                 Shippings = await _context.Shippings.ToListAsync(),
                 Products = await _context.Products.ToListAsync(),
-                Banners = await _context.Banners.ToListAsync()
+                Banners = await _context.Banners.ToListAsync(),
+                Sponsors = await _context.sponsors.ToListAsync(),
+                Blogs = await _context.blogs.ToListAsync(),
+                Testimonial = await _context.Testimonial.ToListAsync()
             };
             return View(homeVm);
         }

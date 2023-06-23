@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Index";
+    int Count = 1;
+}
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body" style="font-size:18px">
+                            <h4 class="card-title" style="font-size:18px;color:blue;border-color:blue">Products</h4>
+                            <a asp-area="Admin" asp-action="Create" class="btn primary" style="font-size:16px;border-color:blue; color:blue "><i class="bx bx-plus-circle"></i> Add new Product</a>
+                            <div class="table-rep-plugin">
+                                <div class="table-responsive mb-0" data-pattern="priority-columns">
+                                    <table id="tech-companies-1" class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Count</th>
+                                                <th data-priority="1">Main Image</th>
+                                                <th data-priority="3">Hover Image</th>
+                                                <th data-priority="1">Name</th>
+                                                <th data-priority="3">Price</th>
+                                                <th data-priority="3">Starts</th>
+                                                <th data-priority="3"></th>
+                                                <th data-priority="3"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr style="font-size:18px;">
+                                                    <th>@Count</th>
+                                                    <td><img src="@item.MainImage" style="width:100px" /></td>
+                                                    <td><img src="@item.HoverImage" style="width:100px" /></td>
+                                                    <td>@item.Name</td>
+                                                    <td>@item.Price</td>
+                                                    <td>@item.Starts</td>
+                                                    <td><a asp-area="Admin" asp-action="Edit" asp-route-id="@item.Id" style="cursor:pointer;color:darkorange"><i class="bx bx-edit"></i></a></td>
+                                                    <td><a asp-area="Admin" asp-action="Delete" asp-route-id="@item.Id" style="cursor:pointer;color:red"><i class="bx bx-trash"></i></a></td>
+                                                </tr>
+                                                Count++;
+                                            }
+                                        </tbody>
+                                    </table>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end col -->
+        </div>
+    </div>
+</div>

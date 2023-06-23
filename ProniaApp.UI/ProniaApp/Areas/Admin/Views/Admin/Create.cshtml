@@ -1,0 +1,78 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="main-content">
+
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <button class="card-title mb-4">Add Product</button>
+                            <form method="post">
+                                <div class="row mb-4">
+                                    <label asp-for="MainImage" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Main Image</label>
+                                    <div class="col-sm-9">
+                                        <input asp-for="MainImage" type="text" class="form-control" id="horizontal-firstname-input" placeholder="Main Image (URL)">
+                                        <span asp-validation-for="MainImage" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4">
+                                    <label asp-for="HoverImage" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Hover Image</label>
+                                    <div class="col-sm-9">
+                                        <input asp-for="HoverImage" type="text" class="form-control" id="horizontal-firstname-input" placeholder="Hover Image (URL)">
+                                        <span asp-validation-for="HoverImage" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4">
+                                    <label asp-for="Name" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Title</label>
+                                    <div class="col-sm-9">
+                                        <input asp-for="Name" type="text" class="form-control" id="horizontal-firstname-input" placeholder="Title">
+                                        <span asp-validation-for="Name" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4">
+                                    <label asp-for="Price" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Price</label>
+                                    <div class="col-sm-9">
+                                        <input asp-for="Price" type="text" class="form-control" id="horizontal-firstname-input" placeholder="Price">
+                                        <span asp-validation-for="Price" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4">
+                                    <label asp-for="Starts" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Star</label>
+                                    <div class="col-sm-9">
+                                        <input asp-for="Starts" type="text" class="form-control" id="horizontal-firstname-input" placeholder="Stars">
+                                        <span asp-validation-for="Starts" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+
+                                <div class="row justify-content-end">
+                                    <div class="col-sm-9">
+                                        <div>
+                                            <button type="submit" class="btn btn-outline-success w-md">Submit</button>
+                                            <a asp-controller="Admin" asp-action="Index" class="btn btn-secondary" style="width:150px">
+                                                Back to List
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- end card body -->
+                    </div>
+                    <!-- end card -->
+                    <p>assets/images/website-images//1-2-270x300.jpg -Example Photo path</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
