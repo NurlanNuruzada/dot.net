@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -53,6 +57,10 @@
             "OpenAI": {
               "target": "Package",
               "version": "[1.7.2, )"
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -123,6 +131,10 @@
               "target": "Package",
               "version": "[6.11.0, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.18, )"
@@ -140,6 +152,10 @@
             "OpenAI": {
               "target": "Package",
               "version": "[1.7.2, )"
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             },
             "VisioForge.DotNet.Core.TRIAL": {
               "target": "Package",

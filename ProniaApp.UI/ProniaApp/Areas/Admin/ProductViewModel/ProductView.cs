@@ -1,10 +1,15 @@
-﻿namespace Pronia.Areas.Admin.ProductViewModel;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Pronia.Areas.Admin.ProductViewModel;
 
 public class ProductView
 {
-    public string MainImage { get; set; }
-    public string HoverImage { get; set; }
-    public string Name { get; set; }
+    [Required]
+    public IFormFile MainImage { get; set; } = null!;
+    [Required]
+    public IFormFile HoverImage { get; set; } = null!;
+    public string Name { get; set; } = null!;
     public decimal Price { get; set; }
     public int Starts { get; set; }
 }
+

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MCQdKl7j1VmgaIjOp8WPjvQSluuCvPT13Ss2gC+Uv9U=",
+  "Hash": "Mf2xMvmoOFCjCIhLvHW0wmuWXk2QTBwer4oiF8jQqVs=",
   "Source": "ProniaApp",
   "BasePath": "_content/ProniaApp",
   "Mode": "Default",
@@ -4911,6 +4911,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assetsf\\images\\megamenu-img.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\dot.net\\ProniaApp.UI\\ProniaApp\\wwwroot\\assetsf\\images\\product\\371041c1-94ed-430f-83c8-9349d681a8dbhelltv-logo-dark.png",
+      "SourceId": "ProniaApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\dot.net\\ProniaApp.UI\\ProniaApp\\wwwroot\\",
+      "BasePath": "_content/ProniaApp",
+      "RelativePath": "assetsf/images/product/371041c1-94ed-430f-83c8-9349d681a8dbhelltv-logo-dark.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assetsf\\images\\product\\371041c1-94ed-430f-83c8-9349d681a8dbhelltv-logo-dark.png"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\dot.net\\ProniaApp.UI\\ProniaApp\\wwwroot\\assetsf\\images\\product\\img-1.png",

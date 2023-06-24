@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Pronia.Areas.Admin.Extension;
 using Pronia.Areas.Admin.ProductViewModel;
 using Pronia.Core.Entities;
 using Pronia.DataAcces.DBContext;
@@ -12,11 +13,13 @@ public class AdminController : Controller
 {
     private readonly AppDbContext _context;
     private readonly IMapper _mapper;
+    private readonly IWebHostEnvironment _env;
 
-    public AdminController(AppDbContext context, IMapper mapper)
+    public AdminController(AppDbContext context, IMapper mapper, IWebHostEnvironment env)
     {
         _context = context;
         _mapper = mapper;
+        _env = env;
     }
     public async Task<IActionResult> Index()
     {
@@ -30,16 +33,32 @@ public class AdminController : Controller
     [HttpPost]
     [ValidateAntiForgeryToken]
 
-    public IActionResult Create(ProductView product_view)
+    public async Task<IActionResult> Create(ProductView product_view)
     {
-        if (ModelState.IsValid)
+        if (!ModelState.IsValid)
         {
-            var product = _mapper.Map<Product>(product_view);
-            _context.Products.Add(product);
-            _context.SaveChanges(); 
-            return RedirectToAction("Index");
+            return View(product_view);
         }
-        return View();
+        if (!product_view.MainImage.CorrectForamt("image"))
+        {
+            ModelState.AddModelError("MImage", "Select correct image format!");
+            return View(product_view);
+        }
+        if (!product_view.MainImage.CheckSize(100))
+        {
+            ModelState.AddModelError("MImage", "Size must be less than 100 kb");
+            return View(product_view);
+        }
+
+        string filePath = await product_view.MainImage.CopyFileAsync(_env.WebRootPath, "assetsf", "images", "product");
+        Product product = _mapper.Map<Product>(product_view);
+        product.HoverImage = filePath;
+        product.MainImage = filePath; 
+
+        _context.Products.Add(product);
+        _context.SaveChanges();
+
+        return RedirectToAction("Index");
     }
 
     public IActionResult Edit(int id)
@@ -55,18 +74,26 @@ public class AdminController : Controller
         }
         return View(product);
     }
-
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public IActionResult Edit(Product product)
+    public async Task<IActionResult> Edit(int id, Product product)
     {
-        if (ModelState.IsValid)
+        if (id != product.Id)
         {
-            _context.Products.Update(product);
-            _context.SaveChanges();
-            return RedirectToAction("Index");
+            return BadRequest();
         }
-        return View();
+        if (!ModelState.IsValid)
+        {
+            return View(product);                     
+        }
+        Product? product1 = await _context.Products.AsNoTracking().FirstOrDefaultAsync(s=>s.Id==id);
+        if (product1 is null)
+        {
+            return NotFound();
+        }
+        _context.Entry(product).State= EntityState.Modified;
+        await _context.SaveChangesAsync();
+        return RedirectToAction("Index");
     }
 
     public IActionResult Delete(int id)
