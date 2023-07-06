@@ -1,6 +1,7 @@
 ﻿
 
 using FluentAssertions.Common;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Pronia.Core.Entities;
@@ -8,9 +9,8 @@ using Pronia.Core.Entities;
 
 namespace Pronia.DataAcces.DBContext;
 
-public class AppDbContext : DbContext
+public class AppDbContext : IdentityDbContext<UserApp>
 {
-
 
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
     public DbSet<Slider> Sliders { get; set; }

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pronia.Areas.Admin.Extension;
@@ -7,8 +8,8 @@ using Pronia.Core.Entities;
 using Pronia.DataAcces.DBContext;
 
 namespace Pronia.Areas.Admin.Controllers;
-
 [Area("Admin")]
+[Authorize(Roles ="Admin")]
 public class AdminController : Controller
 {
     private readonly AppDbContext _context;
